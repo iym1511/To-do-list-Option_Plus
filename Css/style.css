@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    list-style: none;
+    font-family: 'KOTRAHOPE';
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) 
+    ,url(/투두리스트과제/image/laptop-g58a9ded5a_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+#title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+#clock{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.list-plus{
+    text-align: center;
+}
+#text{
+    font-size: 20px;
+}
+#btn{
+    font-size: 20px;
+    width: 40px;
+}
+.todo-board{
+    text-align: center;
+}
+li {
+    font-size: 30px;
+    color: white;
+}
+span{
+    font-size: 20px;
+}
+li button{
+    margin: 5px 10px;
+}
+#count{
+    font-size: 25px;
+    color: white;
+}
+

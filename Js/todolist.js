@@ -1,8 +1,10 @@
+// 투두 입력 DOM 가져오기
 const inputText = document.getElementById("text");
 const button = document.getElementById("btn");
 const todoboard = document.getElementById("todo-list");
 const todoButton = inputText.nextElementSibling;
 const count = document.getElementById("count");
+
 
 
 button.addEventListener("click", todobutton)
